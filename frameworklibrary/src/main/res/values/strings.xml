@@ -1,0 +1,28 @@
+<resources>
+    <string name="framework">framework</string>
+
+    <!-- error -->
+    <string name="title_activity_guide">GuideActivity</string>
+
+    <string name="service_connect_failed">网络连接失败,请检查网络</string>
+    <string name="connect_timeout">连接超时,请稍后再试</string>
+    <string name="server_exception">服务器异常</string>
+    <string name="parse_error">解析服务器响应数据失败</string>
+    <string name="unknown_error">未知错误</string>
+    <string name="response_return_error">服务器返回数据失败</string>
+
+    <string name="tips">提示</string>
+    <string name="sure_exit">您确定要退出吗?</string>
+    <string name="cancel">取消</string>
+    <string name="sure">确定</string>
+    <string name="weixin_false">微信拒绝</string>
+
+    <string name="back">返回</string>
+    <string name="update_title">发现新版本:</string>
+    <string name="updating">正在下载更新包:</string>
+    <string name="update_down_tips">网络下下载更新吗!</string>
+    <string name="replay">Replay</string>
+    <string name="video_loading_faild">Video loading failed</string>
+    <string name="click_to_restart">Click to try again</string>
+
+</resources>

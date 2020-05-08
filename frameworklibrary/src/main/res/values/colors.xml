@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="app_bg">#ff669900</color>
+
+    <color name="colorPrimary">#025FCC</color>
+    <color name="colorPrimaryDark">#2271E6</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="circle_normal">#D8E9FC</color>
+    <color name="dialog_text">#181818</color>
+    <color name="dialog_divider">#d1d1d1</color>
+    <color name="bid_devider_color">#e8e8e8</color>
+    <color name="bid_text_color">#4A4A4A</color>
+    <color name="automatic_line_color">#4A4A4A</color>
+    <color name="accountmanage_line_color">#D8D8D8</color>
+    <color name="bar_color">#F7F7F7</color>
+    <color name="font_normal">#4A4A4A</color>
+    <color name="font_grey">#9D9D9D</color>
+    <color name="font_gray">#9B9B9B</color>
+    <color name="font_bold">#3F3A39</color>
+    <color name="line">#ebebeb</color>
+    <color name="alpha">#00000000</color>
+    <color name="inside_color">#d1cdcd</color>
+    <!--黑色-->
+    <color name="black">#FF000000</color>
+    <color name="black_gray">#333333</color>
+    <color name="black_light">#666666</color>
+    <color name="black_light_light">#999999</color>
+    <color name="gray">#ffefefef</color>
+    <color name="color_line">#dddddd</color>
+    <color name="gray_light">#f5f5f5</color>
+    <color name="gray_line_color">#cccccc</color>
+    <color name="status_bar">#cccccc</color>
+    <color name="border_gray">#c8c8c8</color>
+    <color name="blue">#20afe6</color>
+    <color name="light_blue">#6593cb</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="home_detail">#fafafa</color>
+    <color name="coler_bg">#ffefefef</color>
+    <!--绿色-->
+    <color name="green">#ff669900</color>
+    <!--白色-->
+    <color name="white">#FFFFFFFF</color>
+    <color name="red">#ffff4444</color>
+    <color name="orange">#FFA500</color>
+    <color name="red_text">#ff5d5e</color>
+    <color name="red_light">#F6295C</color>
+    <color name="theme_red">#ffff4444</color>
+    <color name="purple">#A020F0</color>
+    <color name="loading">#F1F1F1</color>
+    <color name="more_list_item_text_color">#b995a0</color>
+    <color name="color_menu_back">#F3F2F2</color>
+    <color name="color_menu_lines">#CDCACA</color>
+    <!--跑马灯背景-->
+    <color name="marqueebackgroud">#fdf9dc</color>
+    <!-- 跑马灯字体颜色-->
+    <color name="marquetextcolor">#694014</color>
+
+    <drawable name="white">#FFFFFF</drawable>
+    <drawable name="alpha">#00000000</drawable>
+    <drawable name="line">#ebebeb</drawable>
+</resources>

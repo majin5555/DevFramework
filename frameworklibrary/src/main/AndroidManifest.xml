@@ -1,0 +1,5 @@
+<manifest xmlns:tools2="http://schemas.android.com/tools"
+    package="com.frameworklibrary"
+    tools2:ignore="NamespaceTypo">
+
+</manifest>

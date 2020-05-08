@@ -1,0 +1,64 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/app_bg</item>
+        <item name="colorPrimaryDark">@color/app_bg</item>
+        <item name="colorAccent">@color/app_bg</item>
+
+        <item name="android:activityOpenEnterAnimation">@anim/activity_right_in</item>
+        <item name="android:activityOpenExitAnimation">@anim/activity_left_out</item>
+        <item name="android:activityCloseEnterAnimation">@anim/activity_left_in</item>
+        <item name="android:activityCloseExitAnimation">@anim/activity_right_out</item>
+    </style>
+
+
+    <!--APP去除顶部 状态栏-->
+    <style name="Theme.NoSystemStatusBar" parent="AppTheme">
+        <!--状态栏和toolbar分开-->
+        <!--<item name="android:windowIsTranslucent">true</item>-->
+        <!-- 状态栏和toolbar连在一起-->
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+
+    <!--APP启动时没有白屏-->
+    <style name="Theme.AppStartLoadTranslucent" parent="Theme.NoSystemStatusBar">
+        <!--状态栏和toolbar分开-->
+        <!--<item name="android:windowIsTranslucent">true</item>-->
+        <!-- 状态栏和toolbar连在一起
+        <item name="android:windowTranslucentStatus">true</item>-->
+        <item name="android:background">@mipmap/welcome</item>
+        <!--解决启动白屏问题，左侧快速启动，通常用于欢迎页-->
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <!--直线-->
+    <style name="line">
+        <item name="android:layout_height">0.5dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@color/color_line</item>
+    </style>
+
+    <!--竖线-->
+    <style name="line_vertical">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">1dp</item>
+        <item name="android:background">@color/color_line</item>
+    </style>
+
+    <!--弹窗样式-->
+    <style name="NiceDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowSoftInputMode">adjustPan</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+    <!--弹窗动画-->
+    <style name="DefaultAnimation" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/enter_anim</item>
+        <item name="android:windowExitAnimation">@anim/exit_anim</item>
+    </style>
+</resources>
